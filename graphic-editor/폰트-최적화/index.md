@@ -52,18 +52,18 @@
 
 - 한 번에 전체 이미지를 가져오고, 일부 pending 상태가 유지된다.
 
-  <img src="./assets/lazy-preview.gif" >
+  <img src="./assets/lazy-preview.gif" width="600">
 
 ### 개선 후
 
 - 스크롤을 내릴 때마다 lazy 하게 이미지를 가져온다.
 
-  <img src="./assets/lazy-after.gif" >
+  <img src="./assets/lazy-after.gif" width="600">
 
 - 인메모리 캐싱 (캐싱된 폰트에 한해서는 다시 로드하지 않음 (네트워크 탭 참고))
 
-  <img src="./assets/cache.gif" >
+  <img src="./assets/cache.gif" width="600">
 
 - 로딩 / 패칭 실패 시 사용자 경험 개선
 
-  <img src="./assets/ux.gif">
+  <img src="./assets/ux.gif" width="600">

@@ -38,7 +38,7 @@ renderAll() {
 
 - \_objectsToRender를 이용해 동적/정적 object들을 구분해 다른 레이어에 렌더하는 것, 이것이 바로 최적화 핵심이라고 생각한다. 실제 fabric.js가 렌더된 걸 보면 fabric.canvas를 하나만 선언해도 기본적으로 lower-canvas, upper-canvas 두 겹의 캔버스가 렌더뢴다. upper-canvas가 동적 상호작용을 처리하고, lower-canvas가 정적 요소를 렌더링하는 데 사용되는 방식으로 해석할 수 있겠다.
 
-  <img src="./assets/lower-canvas+upper-canvas.png" >
+  <img src="./assets/lower-canvas+upper-canvas.png" width="400">
 
 ### 실제로 확인해보자
 
@@ -48,11 +48,11 @@ fabric.js 내부의 example ["Opacity on mouse move"](http://fabricjs.com/opacit
 
   - 정상 동작하는 상태
 
-    <img src="./assets/normal.gif" >
+    <img src="./assets/normal.gif" width="600">
 
   - Lower-canvas (staticCanvas) 제거
 
-    <img src="./assets/remove-lower.gif" >
+    <img src="./assets/remove-lower.gif" width="600">
 
     - 렌더는 이뤄지나, 에셋이 제대로 upper-canvas에 커밋되지 않음
 
@@ -60,7 +60,7 @@ fabric.js 내부의 example ["Opacity on mouse move"](http://fabricjs.com/opacit
 
   - Upper-canvas (dynamicCanvas) 제거
 
-    <img src="./assets/remove-upper.gif" >
+    <img src="./assets/remove-upper.gif" width="600">
 
     - 사용자 상호작용이 이뤄지지 않음
 
@@ -84,7 +84,7 @@ fabric.js 내부의 example ["Opacity on mouse move"](http://fabricjs.com/opacit
 
 ### 동작 flowchart
 
-  <img src="./assets/flow.png" >
+  <img src="./assets/flow.png" width="600">
 
 ### Resizing, Rotating with canvas
 
@@ -94,6 +94,6 @@ fabric.js 내부의 example ["Opacity on mouse move"](http://fabricjs.com/opacit
 
 [🔗 MultiLayer (static, dynamic) Canvas 최적화 구현데모](https://fabric-js-example.vercel.app/multi-layer-canvas)
 
-<img src="./assets/multi-optimization.gif" >
+<img src="./assets/multi-optimization.gif" width="600">
 
 - 위 gif에 나타난 render count는 static에 해당하는 캔버스가 어느 정도의 빈도로 렌더되었는가를 나타낸다. 사실 위 gif와 같은 경우는 배경이 그저 흰색이므로 성능 차이가 유의미하지 않지만 (어차피 upper-canvas에서는 왼쪽 1장짜리 캔버스와 동일하게 렌더되므로 유의미하지 않고, 오히려 복원과 커밋을 위한 렌더 횟수가 더 필요할 수도 있음) 만약 복잡한 경로를 가진 svg나, 렌더된 객체 수가 많은 경우 왼쪽과 오른쪽의 성능 차이가 유의미해질 것으로 예측한다.

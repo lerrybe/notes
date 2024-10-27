@@ -46,8 +46,11 @@ fabric.js 내부의 example ["Opacity on mouse move"](http://fabricjs.com/opacit
 
 - 정상 동작
 
-  - 정상 동작하는 상태  
-    <video src="./assets/normal.mov">
+  - 정상 동작하는 상태
+
+    <video controls>
+      <source src="./assets/normal.mov" type="video/mp4">
+    </video>
 
   * Lower-canvas (staticCanvas) 제거
     <video src="./assets/remove-lower.mov">

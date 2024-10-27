@@ -66,4 +66,4 @@
 
 - 로딩 / 패칭 실패 시 사용자 경험 개선
 
-  <video src="./assets/ux.mov">
+  <img src="./assets/ux.gif">

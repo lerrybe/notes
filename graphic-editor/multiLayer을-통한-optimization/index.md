@@ -48,19 +48,19 @@ fabric.js 내부의 example ["Opacity on mouse move"](http://fabricjs.com/opacit
 
   - 정상 동작하는 상태
 
-    <video controls>
-      <source src="./assets/normal.mov" type="video/mp4">
-    </video>
+    <img src="./assets/normal.gif" >
 
-  * Lower-canvas (staticCanvas) 제거
-    <video src="./assets/remove-lower.mov">
+  - Lower-canvas (staticCanvas) 제거
+
+    <img src="./assets/remove-lower.gif" >
 
     - 렌더는 이뤄지나, 에셋이 제대로 upper-canvas에 커밋되지 않음
 
     * lower-canvas에 배경 이미지가 그려져 있으므로, 이 캔버스를 지우면 화면에서 배경 이미지가 사라집니다. 즉, 배경 이미지가 전혀 보이지 않게 됨
 
-  * Upper-canvas (dynamicCanvas) 제거
-    <video src="./assets/remove-upper.mov">
+  - Upper-canvas (dynamicCanvas) 제거
+
+    <img src="./assets/remove-upper.gif" >
 
     - 사용자 상호작용이 이뤄지지 않음
 

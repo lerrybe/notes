@@ -37,6 +37,8 @@
 ### Graphic
 
 - [그래픽 용어 관계성 간단 정리](./graphic/그래픽-용어-관계성-간단-정리/index.md)
+- [SVG Filters](./graphic/svg-filters/index.md)
+- [Physics (THREE.js)](./graphic/physics/index.md)
 
 ### Thinking
 

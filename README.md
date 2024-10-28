@@ -23,7 +23,8 @@
 
 - [MSW](./frontend/msw/index.md)
 - [presigned-url로 파일 업로드하기](./frontend//presigned-url로-대용량-파일-업로드/index.md)
-- [promise에 대하여](./frontend/promise에-대하여/index.md)
+- [promise - all / allSettled / race / any](./frontend/promise에-대하여/all-allsettled-race-any.md)
+- [promise, async/await 실행흐름](./frontend/promise에-대하여/promise-async-await-실행흐름.md)
 - [REACT overview](./frontend/react/overview.md)
 - [error boundary](./frontend/error-boundary/index.md)
 - [AuthServerSideProps 구현](./frontend/auth-server-side-props-구현/index.md)

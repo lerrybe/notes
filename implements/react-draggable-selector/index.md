@@ -1,5 +1,9 @@
 <img src="./assets/selector.gif" width="400" />
 
+## Live demo & package
+
+- [NPM react draggable selector](https://react-draggable-selector.vercel.app/)
+
 ## 들어가며
 
 드래그로 슬롯들을 선택해야하는 컴포넌트를 구현해보자.
@@ -156,7 +160,3 @@ export interface DragEventStates {
 > - 업데이트된 선택된 시간 슬롯들을 `cachedSelectedTimeSlots`에 반영한다.
 
 결과적으로 `updateCachedSelectedTimeSlots` 함수를 사용하여 드래그 이벤트에 따라 선택된 시간 슬롯들을 쉽게 업데이트할 수 있고, 이 함수는 React 컴포넌트에서 드래그 이벤트 핸들러 등과 함께 사용되어 시간 슬롯 선택과 관련된 로직을 처리하는 데 활용된다.
-
-## Live demo & package
-
-- [NPM react draggable selector](https://react-draggable-selector.vercel.app/)

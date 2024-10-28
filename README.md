@@ -32,3 +32,8 @@
 
 - [가짜 중복과 진짜 중복](./thinking/가짜-중복과-진짜-중복/index.md)
 - [상속과 재사용](./thinking/상속과-재사용/index.md)
+
+### Game math
+
+- [게임 수학 overview](./game-math/overview.md)
+- [수와 벡터](./game-math/수와-벡터.md)

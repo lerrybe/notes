@@ -26,6 +26,7 @@
 - [promise에 대하여](./frontend/promise에-대하여/index.md)
 - [REACT overview](./frontend/react/overview.md)
 - [error boundary](./frontend/error-boundary/index.md)
+- [AuthServerSideProps 구현](./frontend/auth-server-side-props-구현/index.md)
 
 ### Graphic
 

@@ -98,6 +98,25 @@
 - 담으면 좋은 정보
   - 응급도, 유저 정보, method 및 url, headers, data (request, response)
 
+### 적용
+
+- queryClient 단에서 제어, error 객체 읽어서 분기 (이미 적용되고 있는 API가 너무 많고, dev 배포 환경에서 빠른 QA 진행을 위한 입력값들 파악을 해야함)
+- queryCache & mutationCache 단에서 제어
+- mutation의 경우: ${에러 객체} ${variable(requestBody)} ${API_URL}을 중심으로 리포트
+- query의 경우: ${에러 객체} ${queryKey} ${API_URL}을 중심으로 리포트
+- 전역 에러 핸들러 / 개별 에러 핸들러 동시에 선언되어 있으면 둘 다 호출됨
+- Dev 배포 환경과 Prod 배포 환경의 분리 - beforeSend 콜백을 사용해 이벤트를 보내기 전 태그를 붙여 환경에 따라 다른 슬랙방에 노티가 오도록 분리
+
+  ```typescript
+  // ...옵션
+  beforeSend(event) {
+    if (!event?.tags) event.tags = {}
+
+    event.tags.namespace = isNamespaceProduction() ? 'prod' : 'dev'
+    return event
+  },
+  ```
+
 ### 언제 오류를 쌓는가?
 
 - 어느 상황부터를 장애 상황으로 보아야 하는가?

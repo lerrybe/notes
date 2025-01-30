@@ -9,7 +9,14 @@
 
 ## 분류
 
-### Graphic Editor
+### Graphic
+
+- [⚙️ GPU는 어떻게 작동할까](./graphic/gpu-overview/index.md)
+- [그래픽 용어 관계성 간단 정리](./graphic/그래픽-용어-관계성-간단-정리/index.md)
+- [SVG Filters](./graphic/svg-filters/index.md)
+- [Physics (THREE.js)](./graphic/physics/index.md)
+
+### Editor
 
 - [웹 에디터? 단순 편집기를 넘어서](./graphic-editor/웹-에디터%3F-단순-편집기를-넘어서/index.md)
 - [그래픽 에디터 개선작업 - 현황 분석](./graphic-editor/그래픽-에디터-개선작업/현황분석.md)
@@ -34,12 +41,18 @@
 
 - [Draggable-time-selector 구현하기 (with REACT, TS)](./implements/react-draggable-selector/index.md)
 
+<<<<<<< Updated upstream
+
 ### Graphic
 
 - [그래픽 용어 관계성 간단 정리](./graphic/그래픽-용어-관계성-간단-정리/index.md)
 - [SVG Filters](./graphic/svg-filters/index.md)
 - [Physics (THREE.js)](./graphic/physics/index.md)
 - [GPU는 어떻게 작동할까](./graphic/gpu-overview/index.md)
+
+=======
+
+> > > > > > > Stashed changes
 
 ### Thinking
 

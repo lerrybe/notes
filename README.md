@@ -1,6 +1,6 @@
 # lerrybe notes
 
-[![Version](https://img.shields.io/badge/version-2024.10.27-red.svg)](./CHANGELOG)
+[![Version](https://img.shields.io/badge/version-2025.01.31-red.svg)](./CHANGELOG)
 
 ## Overview
 
@@ -12,6 +12,9 @@
 ### Graphic
 
 - [⚙️ GPU는 어떻게 작동할까](./graphic/gpu-overview/index.md)
+- [requestAnimationFrame](./graphic/requestAnimationFrame/index.md)
+- [베지어 곡선(Bezier Curve)](./graphic/bezier/bezier-curve.md)
+- [SVG 생각의 흐름 정리](./graphic/svg/index.md)
 - [그래픽 용어 관계성 간단 정리](./graphic/그래픽-용어-관계성-간단-정리/index.md)
 - [SVG Filters](./graphic/svg-filters/index.md)
 - [Physics (THREE.js)](./graphic/physics/index.md)
@@ -25,6 +28,12 @@
 - [undo / redo 시스템 디자인](./graphic-editor/undo-redo-시스템-디자인/index.md)
 - [snap과 가이드라인](./graphic-editor/snap과-가이드라인/index.md)
 - [폰트 최적화 (1)](./graphic-editor/폰트-최적화/index.md)
+- [회전 행렬을 활용한 그룹 해제 구현](./graphic-editor/회전행렬을-활용한-그룹해제-구현/index.md)
+- [이미지 마스킹을 위한 브러시 도구](./graphic-editor/이미지-마스킹을-위한-브러시-도구/index.md)
+
+### Javascript / Typescript
+
+- [Typescript 인터페이스](./lang/typescript/Typescript-인터페이스/index.md)
 
 ### Frontend
 

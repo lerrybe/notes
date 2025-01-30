@@ -41,19 +41,6 @@
 
 - [Draggable-time-selector 구현하기 (with REACT, TS)](./implements/react-draggable-selector/index.md)
 
-<<<<<<< Updated upstream
-
-### Graphic
-
-- [그래픽 용어 관계성 간단 정리](./graphic/그래픽-용어-관계성-간단-정리/index.md)
-- [SVG Filters](./graphic/svg-filters/index.md)
-- [Physics (THREE.js)](./graphic/physics/index.md)
-- [GPU는 어떻게 작동할까](./graphic/gpu-overview/index.md)
-
-=======
-
-> > > > > > > Stashed changes
-
 ### Thinking
 
 - [가짜 중복과 진짜 중복](./thinking/가짜-중복과-진짜-중복/index.md)

@@ -30,6 +30,9 @@
 - [폰트 최적화 (1)](./graphic-editor/폰트-최적화/index.md)
 - [회전 행렬을 활용한 그룹 해제 구현](./graphic-editor/회전행렬을-활용한-그룹해제-구현/index.md)
 - [이미지 마스킹을 위한 브러시 도구](./graphic-editor/이미지-마스킹을-위한-브러시-도구/index.md)
+- [디자인 패턴 - 객체를 생성할 때 사용할 수 있는 다양한 생성 패턴](./graphic-editor/디자인패턴/creational-pattern.md)
+- [디자인 패턴 - 객체가 자신의 역할을 깔끔하게 수행하게 만드는 행동 패턴](./graphic-editor/디자인패턴/behavioral-pattern.md)
+- [디자인 패턴 - 다양한 객체를 조합하여 활용하는 구조 패턴](./graphic-editor/디자인패턴/structural-pattern.md)
 
 ### Javascript / Typescript
 

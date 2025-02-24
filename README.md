@@ -34,6 +34,10 @@
 - [디자인 패턴 - 객체가 자신의 역할을 깔끔하게 수행하게 만드는 행동 패턴](./graphic-editor/디자인패턴/behavioral-pattern.md)
 - [디자인 패턴 - 다양한 객체를 조합하여 활용하는 구조 패턴](./graphic-editor/디자인패턴/structural-pattern.md)
 
+### Computer Graphics
+
+- [1-1. 페인팅과 드로잉](./computer-graphics/1-1.painting-and-drawing.md)
+
 ### Javascript / Typescript
 
 - [Typescript 인터페이스](./lang/typescript/Typescript-인터페이스/index.md)

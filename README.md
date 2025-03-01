@@ -37,6 +37,8 @@
 ### Computer Graphics
 
 - [1-1. 페인팅과 드로잉](./computer-graphics/1-1.painting-and-drawing.md)
+- [1-2. 3d 그래픽스 요소](./computer-graphics/1-2.elements-of-3d-graphics.md)
+- [1-3. 하드웨어와 소프트웨어](./computer-graphics/1-3.hardware-and-software.md)
 
 ### Javascript / Typescript
 
